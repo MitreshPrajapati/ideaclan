@@ -120,12 +120,11 @@ Headers:
 ```
 
 # Dependencies
-
--Node.js
--Express.js
--Graphql
--apollo-server-express
--MongoDb
--bcrypt
--jsonwebtoken
--mongoose
+- Node.js
+- Express.js
+- Graphql
+- apollo-server-express
+- MongoDb
+- bcrypt
+- jsonwebtoken
+- mongoose
