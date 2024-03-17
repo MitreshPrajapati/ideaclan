@@ -14,6 +14,8 @@ const authMiddleware = require('./middleware/authMiddleware');
 
 async function startServer() {
     const app = express();
+    app.use(cors());
+
     const server = new ApolloServer({ typeDefs: typeDefs, resolvers: resolvers });
 
     await server.start();
